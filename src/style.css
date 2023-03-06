@@ -1,0 +1,15 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: Thin 100;
+}
+    
