@@ -1,14 +1,7 @@
 /* font-family: 'Roboto', sans-serif; */
 
-h1 {
-    font-size: 96px;
-    font-family: 'Roboto', sans-serif;
-   
-}
-
-h2 {
-    font-weight: 100;
-    font-family: 'Roboto', sans-serif;
+body {
+    background-color: black;
 }
 
 .hero {
@@ -20,4 +13,28 @@ h2 {
 
 .fsize-1 {
     font-size: 90px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.flower-img {
+    filter:grayscale(100%);
+    width: 300px;
+}
+
+.flower-img:hover {
+    filter: grayscale(0%);
+}
+
+@media(max-width: 400px) {
+h1 {
+    display: none;
+}
+
+
 }
