@@ -1,15 +1,23 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-style: italic;
-
+    font-size: 96px;
+    font-family: 'Roboto', sans-serif;
+   
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: Thin 100;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
-    
+
+.hero {
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/537/original/self.jpeg?1678285176") no-repeat center center fixed;
+    height: 1000px;
+    background-size: cover;
+    text-align: center;
+} 
+
+.fsize-1 {
+    font-size: 90px;
+}
