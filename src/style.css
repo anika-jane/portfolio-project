@@ -31,10 +31,6 @@ body {
     filter: grayscale(0%);
 }
 
-@media(max-width: 400px) {
-h1 {
-    display: none;
-}
-
-
+footer {
+    height: 100px;
 }
