@@ -1,31 +1,41 @@
 /* font-family: 'Roboto', sans-serif; */
 
+
 body {
     background-color: black;
 }
 
 .hero {
-    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/537/original/self.jpeg?1678285176") no-repeat center center;
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/537/original/self.jpeg?1678285176");
     height: 1000px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
 } 
+
+.navbar {
+    width: 100%;
+}
 
 .fsize-1 {
     font-size: 90px;
 }
 
 .image-gallery {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    row-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
     margin-bottom: 100px;
 }
 
 .flower-img {
     filter:grayscale(100%);
-    width: 300px;
+    width: 100%;
 }
 
 .flower-img:hover {
@@ -46,4 +56,21 @@ footer {
     margin-top: 50px;
 }
 
+
+@media (max-width: 900px) {
+    .image-gallery {
+        grid-template-columns: 1fr;
+        column-width: 300px;
+    }
+
+   .flower-img {
+    max-width: 200px;;
+   }
+    
+   .box {
+    max-width: 300px;
+    display: flex;
+    margin: 0 auto;
+   }
+}
 
